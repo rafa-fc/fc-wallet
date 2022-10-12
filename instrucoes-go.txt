@@ -4,5 +4,6 @@
 4. pacotes:
    go mod tidy - baixa todas as dependencias (tipo npm i)
    go get github.com/google/uuid
-   go get github.com/stretchr/testify/assert (ajuda com os ifs nos testes)
+   go get github.com/stretchr/testify/assert
+   go get github.com/stretchr/testify/mock	
   
