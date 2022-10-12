@@ -1,0 +1,8 @@
+1. instalar go
+2. no c:/users/rafa criar pasta go com as pastas: bin, pkg, src
+3. iniciar projeto (caminho da pasta): go mod init github.com/rafassts/fullcycle/9-projeto-wallet/walletcore
+4. pacotes:
+   go mod tidy - baixa todas as dependencias (tipo npm i)
+   go get github.com/google/uuid
+   go get github.com/stretchr/testify/assert (ajuda com os ifs nos testes)
+  
