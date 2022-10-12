@@ -26,6 +26,7 @@ func NewAccount(client *Client) *Account {
 		CreatedAt: time.Now(),
 		UpdatedAt: time.Now(),
 	}
+
 	return account
 }
 

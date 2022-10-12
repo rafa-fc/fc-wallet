@@ -20,6 +20,7 @@ type CreateClientOutputDto struct {
 	UpdatedAt time.Time
 }
 
+// variaveis da injeção de dependencia
 type CreateClientUseCase struct {
 	ClientGateway gateway.ClientGateway
 }
